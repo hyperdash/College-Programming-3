@@ -5,7 +5,7 @@ import java.awt.*;
  * @author 15T026en@stu.teikyo-u.ac.jp
  *         Created on 6/18/16.
  */
-public class Lec02Kadai01 extends Applet {
+public class Lecture02 extends Applet {
 
 	public void paint(Graphics g) {
 		// 5人の学生の学習時間のデータ

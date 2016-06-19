@@ -5,7 +5,7 @@ import java.awt.*;
  * @author 15T026en@stu.teikyo-u.ac.jp
  *         Created on 6/19/16.
  */
-public class DisplayVolume extends Applet {
+public class Lecture03 extends Applet {
 
 	public void paint(Graphics g) {
 		// values
