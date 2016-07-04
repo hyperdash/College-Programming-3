@@ -13,7 +13,7 @@ import java.util.regex.Pattern;
  * @author 15T026en@stu.teikyo-u.ac.jp
  *         Created on 6/19/16.
  */
-public class Lecture05_02 extends Applet implements ActionListener {
+public class Lecture05_2 extends Applet implements ActionListener {
 
 	// define point card
 	private PointCardAccount card;

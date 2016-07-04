@@ -11,7 +11,7 @@ import java.awt.event.ActionListener;
  * @author 15T026en@stu.teikyo-u.ac.jp
  *         Created on 6/19/16.
  */
-public class Lecture04_02 extends Applet implements ActionListener {
+public class Lecture04_2 extends Applet implements ActionListener {
 
 	// define car
 	private MyCar car;

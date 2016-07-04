@@ -5,7 +5,7 @@ import java.awt.*;
  * @author 15T026en@stu.teikyo-u.ac.jp
  *         Created on 6/15/16.
  */
-public class Lecture01_01 extends Applet {
+public class Lecture01_1 extends Applet {
 
 	// number of circles to be drawn
 	private static int NUMBER_OF_CIRCLES = 100;

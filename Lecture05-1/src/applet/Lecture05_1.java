@@ -9,7 +9,7 @@ import java.awt.*;
  * @author 15T026en@stu.teikyo-u.ac.jp
  *         Created on 6/19/16.
  */
-public class Lecture05_01 extends Applet {
+public class Lecture05_1 extends Applet {
 
 	// define point card
 	private PointCardAccount card;

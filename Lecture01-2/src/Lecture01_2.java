@@ -7,7 +7,7 @@ import java.awt.event.TextListener;
  * @author 15T026en@stu.teikyo-u.ac.jp
  *         Created on 6/15/16.
  */
-public class Lecture01_02 extends Applet implements TextListener {
+public class Lecture01_2 extends Applet implements TextListener {
 
 	// define text fields
 	private TextField left, right;
