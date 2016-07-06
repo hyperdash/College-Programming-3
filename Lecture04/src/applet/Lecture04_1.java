@@ -1,6 +1,6 @@
 package applet;
 
-import lec0501util.MyCar;
+import lec0401util.MyCar;
 
 import java.applet.Applet;
 import java.awt.*;

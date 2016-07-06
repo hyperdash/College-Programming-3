@@ -1,4 +1,4 @@
-package lec0801util;
+package lec0802util;
 
 /**
  * @author 15T026en@stu.teikyo-u.ac.jp

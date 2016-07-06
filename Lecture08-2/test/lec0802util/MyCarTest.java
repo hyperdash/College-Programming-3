@@ -1,4 +1,4 @@
-package lec0801util;
+package lec0802util;
 
 import junit.framework.TestCase;
 
@@ -13,7 +13,7 @@ public class MyCarTest extends TestCase {
 	}
 
 	/*
-	 * 'lec0801util.MyCar.MyCar(String, int, int)' のためのテスト・メソッド
+	 * 'lec0802util.MyCar.MyCar(String, int, int)' のためのテスト・メソッド
 	 */
 	public void testMyCar() {
 		//("フェラーリF430", 450馬力，315km/h)を設定
@@ -24,7 +24,7 @@ public class MyCarTest extends TestCase {
 	}
 
 	/*
-	 * 'lec0801util.MyCar.getCarName()' のためのテスト・メソッド
+	 * 'lec0802util.MyCar.getCarName()' のためのテスト・メソッド
 	 */
 	public void testGetCarName() {
 		//("フェラーリF430", 450馬力，315km/h)を設定
@@ -33,7 +33,7 @@ public class MyCarTest extends TestCase {
 	}
 
 	/*
-	 * 'lec0801util.MyCar.getHosePower()' のためのテスト・メソッド
+	 * 'lec0802util.MyCar.getHosePower()' のためのテスト・メソッド
 	 */
 	public void testGetHosePower() {
 		//("フェラーリF430", 450馬力，315km/h)を設定
@@ -42,7 +42,7 @@ public class MyCarTest extends TestCase {
 	}
 
 	/*
-	 * 'lec0801util.MyCar.getMaxSpeed()' のためのテスト・メソッド
+	 * 'lec0802util.MyCar.getMaxSpeed()' のためのテスト・メソッド
 	 */
 	public void testGetMaxSpeed() {
 		//("フェラーリF430", 450馬力，315km/h)を設定
