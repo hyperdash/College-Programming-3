@@ -28,9 +28,11 @@ public class MyCar {
 	public String getCarName() {
 		return carName;
 	}
+
 	public int getHorsePower() {
 		return horsePower;
 	}
+
 	public int getMaxSpeed() {
 		return maxSpeed;
 	}

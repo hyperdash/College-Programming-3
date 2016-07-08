@@ -98,9 +98,9 @@ public class Lecture01_1 extends Applet {
 	 * Sort diameters in ascending order.
 	 */
 	private void ascendingSort() {
-		for (int i = 0; i < diameters.length - 1; i++){
-			for (int j = i + 1; j < diameters.length; j++){
-				if(diameters[j]< diameters[i]){
+		for (int i = 0; i < diameters.length - 1; i++) {
+			for (int j = i + 1; j < diameters.length; j++) {
+				if (diameters[j] < diameters[i]) {
 					int tmp = diameters[j];
 					diameters[j] = diameters[i];
 					diameters[i] = tmp;

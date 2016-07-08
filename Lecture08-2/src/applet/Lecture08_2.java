@@ -13,10 +13,10 @@ public class Lecture08_2 extends Applet {
 
 	public void paint(Graphics g) {
 		// instantiate cars
-		MyCar [] cars = {
+		MyCar[] cars = {
 				new MyCar("フェラーリ", 490, 315),
-				new MyCar("ランボルギーニ",510),new MyCar("ポルシェ", 310, 300),
-				new MyCar("カローラ",100)
+				new MyCar("ランボルギーニ", 510), new MyCar("ポルシェ", 310, 300),
+				new MyCar("カローラ", 100)
 		};
 
 		// find one has the greatest horse power

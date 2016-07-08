@@ -11,40 +11,34 @@ public class MyTime {
 
 	// メソッド
 	// 時間(時間，分，秒)を設定する
-	public void setTime(int h, int m, int s)
-	{
+	public void setTime(int h, int m, int s) {
 		second = s % 60;
 		minute = (m + s / 60) % 60;
-		hour =  h + ( m + s / 60) / 60;
+		hour = h + (m + s / 60) / 60;
 	}
 
 	// 時間を返す
-	public int getHour()
-	{
+	public int getHour() {
 		return hour;
 	}
 
 	// 分を返す
-	public int getMinute()
-	{
+	public int getMinute() {
 		return minute;
 	}
 
 	// 秒を返す
-	public int getSecond()
-	{
+	public int getSecond() {
 		return second;
 	}
 
 	//時間を秒換算する
-	public int toSecond()
-	{
+	public int toSecond() {
 		return hour * 3600 + minute * 60 + second;
 	}
 
 	//時間オブジェクト同士の加算
-	public MyTime add(MyTime x)
-	{
+	public MyTime add(MyTime x) {
 		int h, m, s;
 		h = hour + x.getHour();
 		m = minute + x.getMinute();

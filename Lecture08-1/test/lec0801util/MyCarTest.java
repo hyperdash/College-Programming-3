@@ -19,7 +19,7 @@ public class MyCarTest extends TestCase {
 		//("フェラーリF430", 450馬力，315km/h)を設定
 		MyCar c = new MyCar("フェラーリF430", 450, 315);
 		assertEquals("車名はフェラーリF430", "フェラーリF430", c.getCarName());
-		assertEquals("馬力は450のはず", 450,c.getHorsePower());
+		assertEquals("馬力は450のはず", 450, c.getHorsePower());
 		assertEquals("最高速度は315のはず", 315, c.getMaxSpeed());
 	}
 
@@ -38,7 +38,7 @@ public class MyCarTest extends TestCase {
 	public void testGetHosePower() {
 		//("フェラーリF430", 450馬力，315km/h)を設定
 		MyCar c = new MyCar("フェラーリF430", 450, 315);
-		assertEquals("馬力は450のはず", 450,c.getHorsePower());
+		assertEquals("馬力は450のはず", 450, c.getHorsePower());
 	}
 
 	/*

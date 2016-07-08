@@ -31,12 +31,15 @@ public class MyStudent {
 	public String getName() {
 		return name;
 	}
+
 	public int getSchoolRegisterNumber() {
 		return schoolRegisterNumber;
 	}
+
 	public int getAge() {
 		return age;
 	}
+
 	public MyStudent getNext() {
 		return next;
 	}

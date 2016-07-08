@@ -53,18 +53,23 @@ public class MyOval {
 	public int getX() {
 		return xPosition;
 	}
+
 	public int getY() {
 		return yPosition;
 	}
+
 	public int getR() {
 		return radius;
 	}
+
 	public int getRed() {
 		return colorRed;
 	}
+
 	public int getGreen() {
 		return colorGreen;
 	}
+
 	public int getBlue() {
 		return colorBlue;
 	}
@@ -73,9 +78,11 @@ public class MyOval {
 	public void setRed(int colorRed) {
 		this.colorRed = colorRed;
 	}
+
 	public void setGreen(int colorGreen) {
 		this.colorGreen = colorGreen;
 	}
+
 	public void setBlue(int colorBlue) {
 		this.colorBlue = colorBlue;
 	}

@@ -2,11 +2,11 @@ package lec0902util;
 
 import junit.framework.TestCase;
 
-public class MyStudentTest extends TestCase{
+public class MyStudentTest extends TestCase {
 	public void testMyStudentStringintint() {
 		MyStudent s = new MyStudent("阿笠田奈", 123456, 12);
 		assertEquals("氏名は阿笠田奈", "阿笠田奈", s.getName());
-		assertEquals("学籍番号は123456のはず", 123456,s.getSchoolRegisterNumber());
+		assertEquals("学籍番号は123456のはず", 123456, s.getSchoolRegisterNumber());
 		assertEquals("年齢は12のはず", 12, s.getAge());
 		assertEquals("nextはnullのはず", null, s.getNext());
 	}
@@ -25,7 +25,7 @@ public class MyStudentTest extends TestCase{
 
 	public void testGetSchoolRegisterNumber() {
 		MyStudent s = new MyStudent("阿笠田奈", 123456, 12);
-		assertEquals("学籍番号は123456のはず", 123456,s.getSchoolRegisterNumber());
+		assertEquals("学籍番号は123456のはず", 123456, s.getSchoolRegisterNumber());
 
 	}
 
